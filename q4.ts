@@ -1,0 +1,1 @@
+console.log("Albert Einstein Once Said,\"A Person who never made a mistake never tried anything new.\"");

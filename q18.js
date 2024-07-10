@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let placeToVisit = ["Dubai", "Japan", "United States", "China", "America", "London",];
+console.log("Original order: ", placeToVisit);
+console.log("Alphabetical order: ", placeToVisit.slice().sort());
+console.log("Original order after sorting: ", placeToVisit);
+console.log("Reverse Alphabetical order: ", placeToVisit.slice().sort().reverse());
+console.log("Original order after reverse sorting: ", placeToVisit);
+placeToVisit.reverse();
+console.log("Back to Original order:", placeToVisit);
+console.log("Sorting in alphabetical order:", placeToVisit.slice().sort());
+console.log("Sorting in reverse alphabetical order:", placeToVisit.slice().sort().reverse());

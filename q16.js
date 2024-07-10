@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let guestlist = ["Alisha", "Iqra", "Nimra", "sadaf"];
+let donotcome = guestlist[0];
+console.log(donotcome, "is  can't come");
+guestlist.splice(0, 1, "Alishba");
+console.log("Good News! we have found a bigger table for dinner");
+guestlist.unshift("Aaliya");
+guestlist.push("Hina");
+let middleindex = Math.floor(guestlist.length / 2);
+guestlist.splice(middleindex, 0, "Saira");
+console.log("Updated list our guest");
+guestlist.forEach(oneguest => console.log(`Asalam Ule Kum ${oneguest},would you like to dinner with me`));
